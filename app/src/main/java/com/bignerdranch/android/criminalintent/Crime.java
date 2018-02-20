@@ -13,10 +13,6 @@ public class Crime {
     private Date    mDate;
     private boolean mSolved;
 
-    public UUID getID() {
-        return mID;
-    }
-
     public String getTitle() {
         return mTitle;
     }
@@ -39,6 +35,10 @@ public class Crime {
 
     public void setSolved(boolean solved) {
         mSolved = solved;
+    }
+
+    public UUID getID() {
+        return mID;
     }
 
     public Crime(){
